@@ -20,15 +20,15 @@ void fun2(int b){
 	{
 	return;
     }
-	cout<<a;
-	fun1(++a);
-	cout<<a;
+	cout<<b;
+	fun1(++b);
+	cout<<b;
 }
 int main()
 {
 	int n;
 	cin>>n;
-	fun1(x);
+	fun1(n);
 	return 0;
 }
  
